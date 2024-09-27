@@ -1,0 +1,26 @@
+.mosaic{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: chartreuse;                       
+    height: 150px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.contact-photo{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+.contact-form{
+    background-color: maroon;
+    height: 180px;
+}

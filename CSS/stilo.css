@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu-nav{
+    background-color: red;
+    height: 50px;
+}
+.slider-container{
+    display:grid;
+    background-color: yellow;
+    height: 50px;
+}
+text-mosaic{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:20px;
+}
+.text content{
+    background-color: blue;
+    height: 150px;
+    padding: 20px;
+}
